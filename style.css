@@ -1,0 +1,294 @@
+@font-face {
+    font-family: RakutenSans;
+    src: url(fonts/RakutenSans_Blk.ttf);
+}
+
+@font-face {
+    font-family: RakutenSansLight;
+    src: url(fonts/RakutenSans_Lt.ttf);
+}
+
+.confidentials,
+.home-page {
+    background: black;
+}
+
+.rtj p,
+.policies p,
+.footer-links p,
+.mail,
+.success-div p,
+p,
+li,
+a {
+    font-family: RakutenSansLight;
+}
+
+* {
+    margin: 0px !important;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+.home-page {
+    height: 80%;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(360deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(0, 40, 120, 1) 54%);
+}
+
+.home-page-container h1 {
+    margin-top: 10%;
+    font-weight: 700 !important;
+    font-size: 51px !important;
+}
+
+.home-page-container h1 {
+    margin-top: 7% !important;
+}
+
+.col-lg-8 h1,
+.home-page-container h1,
+h2,
+h1,
+h4,
+h6,
+h5 {
+    font-family: RakutenSans;
+}
+
+.funstop {
+    width: 13%;
+}
+
+.home-page-container {
+    padding-top: 7%;
+}
+
+@media only screen and (max-width:576px) {
+    html {
+        overflow-x: hidden !important;
+    }
+    body {
+        overflow-x: hidden !important;
+        overscroll-behavior-x: hidden !important;
+    }
+    .home-page-container h1 {
+        font-size: 34px !important;
+    }
+    .home-page-container {
+        padding-top: 25%;
+    }
+    .funstop {
+        width: 20vh;
+    }
+    .banner {
+        width: 100vw;
+    }
+    .success-page h1 {
+        font-size: 34px;
+    }
+}
+
+
+/* START-MARQUEE-CAROUSEL */
+
+.banner-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.banner-wrapper img {
+    white-space: nowrap;
+    animation: move-rtl 50s linear infinite;
+    width: 100vw;
+}
+
+@keyframes move-rtl {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .banner-wrapper img {
+        width: 950px;
+    }
+}
+
+
+/* END-MARQUEE-CAROUSEL */
+
+
+/* GAME-SECTION */
+
+.content,
+.content-page {
+    background-color: black;
+}
+
+.content-page {
+    height: 75%;
+}
+
+.perfectime-para {
+    padding-right: 15% !important;
+}
+
+.perfectime-icon {
+    width: 22%;
+}
+
+.playstore,
+.appstore {
+    width: 30%;
+}
+
+.pad {
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+}
+
+.perfectime-para span,
+.airportrush-para span,
+.success-div span {
+    color: #00BBFF;
+}
+
+.rtj-btn {
+    padding: 4px 16px !important;
+    background-color: #00BBFF !important;
+}
+
+.rtj-btn h4 {
+    padding-top: 0.8%;
+}
+
+.footer-section {
+    height: 200px;
+    background-color: #212735;
+}
+
+
+/* SUCCESS-SECTION */
+
+.success-div {
+    height: 75px;
+    width: 390px;
+    border-radius: 18px;
+    background-color: #1e222e;
+}
+
+.success-icon {
+    width: 17%;
+}
+
+.success-section {
+    padding-top: 20% !important;
+    background-color: black;
+    height: 75%;
+}
+
+@media only screen and (max-width:576px) {
+    .time {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    .success-section .col-lg-4 {
+        justify-content: center;
+    }
+    .success-section h1 {
+        text-align: center;
+    }
+    .active {
+        margin-top: 5% !important;
+    }
+    .success-div {
+        width: 320px;
+    }
+    .content-airport {
+        margin-left: 0% !important;
+    }
+    .perfectime-para {
+        padding-right: 0% !important;
+    }
+    .img-content {
+        justify-content: center;
+    }
+    .content-page {
+        text-align: center;
+    }
+    .playstore,
+    .appstore {
+        width: 25% !important;
+    }
+    .perfectime-icon {
+        width: 18%;
+    }
+    .perfectime-banner {
+        margin-bottom: 7% !important;
+    }
+    .pitstop-banner {
+        margin-top: 7% !important;
+    }
+    .pad {
+        padding-top: 12% !important;
+        padding-bottom: 12% !important;
+    }
+    .footer-section .col-lg-4 {
+        justify-content: start;
+    }
+    .foot {
+        padding-top: 10% !important;
+        padding-bottom: 10% !important;
+    }
+    .footer-section {
+        height: 290px;
+    }
+    .foo {
+        margin-top: 5% !important;
+    }
+}
+
+
+/* FOOTER-SECTION */
+
+.footer-section h5 {
+    font-size: 14px;
+}
+
+.footer-section p {
+    font-size: 11px;
+}
+
+.icon {
+    width: 34px;
+}
+
+.mail-icon {
+    width: 10px !important;
+}
+
+#popup:hover {
+    transform: scale(1.05);
+    transition-duration: 500ms;
+}
+
+
+/* PARTNER-POLICY TABLE */
+
+table a,
+footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+table a:hover,
+footer a:hover {
+    color: inherit;
+    text-decoration: underline;
+}
